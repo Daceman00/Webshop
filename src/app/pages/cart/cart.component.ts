@@ -44,7 +44,6 @@ export class CartComponent implements OnInit {
   ]
 
   constructor(private cartService: CartService, private http: HttpClient){
-
   }
 
   ngOnInit(): void {

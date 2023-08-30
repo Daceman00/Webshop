@@ -1,10 +1,8 @@
 <mat-toolbar class="max-w-7xl mx-auto border-x flex justify-between">
     <a routerLink="home">Store</a>
     <button mat-icon-button [mat-menu-trigger-for]="menu">
-        <mat-icon 
-        [matBadge]="itemsQuantity"
-        [matBadgeHidden]="!itemsQuantity" 
-        matBadgeColor="warn">shopping_cart</mat-icon>
+        <mat-icon [matBadge]="itemsQuantity" [matBadgeHidden]="!itemsQuantity"
+            matBadgeColor="warn">shopping_cart</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
         <div class="p-3 divide-y divide-solid">
